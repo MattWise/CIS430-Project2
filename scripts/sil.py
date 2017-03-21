@@ -1,7 +1,7 @@
 import numpy as np
 from numpy import linalg as LA
 
-#	Computes Sil Takes in 3 paramerters
+#	Computes Sil Takes in 3 parameters
 #	a numpy array of dimensions number_of_items x number_of_features
 #	a numpy array which contains which cluster the nth item belongs too
 #	a function which computes the distance between 2 items
@@ -40,7 +40,7 @@ def computeSil( items , clusterNumber , distanceFunction = euclideanDistance):
 			tmp = tmpDistance[k] / clusterNumber[k]
 			if tmp < b and k != post and tmpDistance[k] != 0:
 				b = tmp
-		#compute silhouette coefficent
+		#compute silhouette coefficient
 		
 		if a == b:
 			sil[i] = 0.0
