@@ -17,7 +17,7 @@ def change_learning_rate(lr=0.05):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    # parser.add_argument("learning_rate", help="Learning rate to change to.", default=0.05, type=float)
+    parser.add_argument("learning_rate", help="Learning rate to change to.", default=0.05, type=float)
     args = parser.parse_args()
-    # change_learning_rate(args.learning_rate)
-    change_learning_rate(0.01)
+    change_learning_rate(args.learning_rate)
+    # change_learning_rate(0.01)
