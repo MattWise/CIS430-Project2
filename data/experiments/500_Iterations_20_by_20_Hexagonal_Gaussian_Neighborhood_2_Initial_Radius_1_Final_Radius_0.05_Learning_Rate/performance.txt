@@ -1,0 +1,1 @@
+Reducing the initial radius to 2 from the default 3 had minimal effect on accuracy overall, but does shift the misclassifications more towards 1s.

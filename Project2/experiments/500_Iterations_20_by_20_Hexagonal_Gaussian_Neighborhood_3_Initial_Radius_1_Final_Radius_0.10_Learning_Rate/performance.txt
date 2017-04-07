@@ -1,0 +1,1 @@
+Increasing Learning Rate by a factor of 2 significantly decreased accuracy.

@@ -1,0 +1,1 @@
+Increasing the number of nuerons to 900 instead of the standard 400 slighlty increased accuracy and shifted misclassifications to 0 instead of 1.

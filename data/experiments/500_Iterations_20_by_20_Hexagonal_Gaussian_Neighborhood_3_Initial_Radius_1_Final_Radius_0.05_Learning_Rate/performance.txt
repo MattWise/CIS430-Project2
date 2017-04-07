@@ -1,0 +1,1 @@
+This is the complete set of defaults, to which each other change is compared. Overall, accuracy is quite good, with less than 1% misclassified in each category.

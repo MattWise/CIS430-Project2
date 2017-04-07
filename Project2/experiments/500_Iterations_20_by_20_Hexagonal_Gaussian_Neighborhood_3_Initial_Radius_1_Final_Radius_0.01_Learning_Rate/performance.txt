@@ -1,0 +1,1 @@
+Decreasing Learning Rate had little overall effect on accuracy, but shifted misclassifications further towards 1s.

@@ -1,0 +1,1 @@
+Dramatically increasing iterations had a small, but real, effect on accuracy, as can be seen in the confusion matrix. The misidentified 0s are half the number observed in the default run, and misidentified 1s are only very slightly higher.

@@ -1,0 +1,1 @@
+Cutting the number of neurons by a factor of 4 (from 400 to 100) had a significant though not enormous negative effect on accuracy, mostly in the form of higher misclassifacation of 1s.
